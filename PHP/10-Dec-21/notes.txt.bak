@@ -1,0 +1,70 @@
+Getting started with PHP
+------------------------
+1.Goto your document Root
+c:/laragon/www
+Launch cmd
+1.create floder
+mkdir app-2021
+
+2. goto inside app-2021
+cd app-2021
+
+3.how to create php file
+Start notepad <file-name.php>
+for eg:
+start notepad p1.php
+start notepad p2.php
+start notepad p3.php
+start notepad p4.php
+
+how to run the program
+php <filename.php>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

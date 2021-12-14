@@ -1,0 +1,24 @@
+ https:// protocal
+ test sub domain
+ seeksolution domainame
+ .in host
+ 443 port
+ web-address/login-- resourse
+ 
+ uri-segment:
+ Each part seperted by/single slash, is called as uri-segment .
+ after port : it is basically path to resourse
+ 
+ after protocal and before endpoints(test.seeksolution.in:443) is called as domain name
+ Every domain may have a sub-domain or not but will have a part.
+ and every domain will have a ip Address, since one cannot learn or remeber
+ ip addess so ,we provide a alias name this alias name is called as domain name and this
+ domain has to be register(mapped) with the ip addess and using DNS(domain name server)
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 

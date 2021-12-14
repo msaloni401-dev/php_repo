@@ -1,0 +1,107 @@
+Getting started with PHP
+------------------------
+1.Goto your document Root
+c:/laragon/www
+Launch cmd
+1.create floder
+mkdir app-2021
+
+2. goto inside app-2021
+cd app-2021
+
+3.how to create php file
+Start notepad <file-name.php>
+for eg:
+start notepad p1.php
+start notepad p2.php
+start notepad p3.php
+start notepad p4.php
+
+how to run the program
+php <filename.php>
+
+
+how to close the command close
+ctrl+cd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.19043.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hp>cd c:/laragon/www
+
+c:\laragon\www>cd app-2021
+
+c:\laragon\www\app-2021>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 280E-BE62
+
+ Directory of c:\laragon\www\app-2021
+
+10-Dec-21  07:07 PM    <DIR>          .
+10-Dec-21  07:07 PM    <DIR>          ..
+10-Dec-21  07:08 PM                35 p1.php
+               1 File(s)             35 bytes
+               2 Dir(s)  60,802,183,168 bytes free
+
+c:\laragon\www\app-2021>php -S localhost:8000
+[Fri Dec 10 19:51:18 2021] PHP 7.4.19 Development Server (http://localhost:8000) started
+[Fri Dec 10 19:52:07 2021] [::1]:56997 Accepted
+[Fri Dec 10 19:52:07 2021] [::1]:56998 Accepted
+[Fri Dec 10 19:52:07 2021] [::1]:56998 [404]: (null) / - No such file or directory
+[Fri Dec 10 19:52:07 2021] [::1]:56998 Closing
+[Fri Dec 10 19:52:07 2021] [::1]:56997 [404]: (null) /favicon.ico - No such file or directory
+[Fri Dec 10 19:52:07 2021] [::1]:56997 Closing
+[Fri Dec 10 19:52:16 2021] [::1]:56999 Accepted
+[Fri Dec 10 19:52:16 2021] [::1]:57000 Accepted
+[Fri Dec 10 19:52:16 2021] [::1]:57000 [200]: GET /p1.php
+[Fri Dec 10 19:52:16 2021] [::1]:57000 Closing
+
+c:\laragon\www\app-2021>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

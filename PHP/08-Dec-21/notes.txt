@@ -1,0 +1,201 @@
+ https:// protocal
+ test sub domain
+ seeksolution domainame
+ .in host
+ 443 port
+ web-address/login-- resourse
+ 
+ uri-segment:
+ Each part seperted by/single slash, is called as uri-segment .
+ after port : it is basically path to resourse
+ 
+ after protocal and before endpoints(test.seeksolution.in:443) is called as domain name
+ Every domain may have a sub-domain or not but will have a part.
+ and every domain will have a ip Address, since one cannot learn or remeber
+ ip addess so ,we provide a alias name this alias name is called as domain name and this
+ domain has to be register(mapped) with the ip addess and using DNS(domain name server)
+  question1::-identify protocaol,port,uri segment,domain host,domain name, sub domain,resourse,
+  Extention,mimeType,ip address,loopback address,local address,forgin address,url,
+ 
+http://dev.localhost/myProject/admin/p1.php
+
+http://                                 identify protocal
+dev                                     sub domain
+dev.localhost                           domain name
+dev.localhost/myProject/admin/p1.php    uri segment
+p1.php                                  resourse
+.php                                    Extention
+127.0.0.1                               ip Address
+80                                      port
+ 127.0.0.1                              loopbackAddress
+127.0.0.1 or DESKTOP-GJ84JDR:0 		    localAddress
+DESKTOP-GJ84JDR [::1]                   forginAddress
+myProject/admin/p1.php                  End point
+mime type                               .php
+http://dev.localhost/myProject/admin/p1.php->url
+
+
+browser in only 2 type file
+1.randarable.
+2.non-randarable.
+
+
+
+                                          CMD
+
+Microsoft Windows [Version 10.0.19043.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hp>netstat -a
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:445            DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:5040           DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:5357           DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:49664          DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:49665          DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:49666          DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:49667          DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:49668          DESKTOP-GJ84JDR:0      LISTENING
+  TCP    0.0.0.0:49669          DESKTOP-GJ84JDR:0      LISTENING
+  TCP    169.254.1.17:139       DESKTOP-GJ84JDR:0      LISTENING
+  TCP    192.168.29.32:139      DESKTOP-GJ84JDR:0      LISTENING
+  TCP    192.168.29.32:52487    20.198.162.78:https    ESTABLISHED
+  TCP    192.168.29.32:52498    20.198.162.78:https    ESTABLISHED
+  TCP    192.168.29.32:52511    a-0001:https           TIME_WAIT
+  TCP    192.168.29.32:52512    a-0001:https           TIME_WAIT
+  TCP    192.168.29.32:52513    219:https              ESTABLISHED
+  TCP    192.168.29.32:52516    204.79.197.222:https   ESTABLISHED
+  TCP    [::]:135               DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [::]:445               DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [::]:5357              DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [::]:49664             DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [::]:49665             DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [::]:49666             DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [::]:49667             DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [::]:49668             DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [::]:49669             DESKTOP-GJ84JDR:0      LISTENING
+  TCP    [2405:201:6007:302f:54a1:1b57:9be7:fad]:52506  [2620:1ec:c11::200]:https  TIME_WAIT
+  TCP    [2405:201:6007:302f:54a1:1b57:9be7:fad]:52507  [2620:1ec:c11::200]:https  TIME_WAIT
+  TCP    [2405:201:6007:302f:54a1:1b57:9be7:fad]:52510  [2620:1ec:c11::200]:https  TIME_WAIT
+  TCP    [2405:201:6007:302f:54a1:1b57:9be7:fad]:52515  [2620:1ec:c11::200]:https  ESTABLISHED
+  UDP    0.0.0.0:68             *:*
+  UDP    0.0.0.0:500            *:*
+  UDP    0.0.0.0:3702           *:*
+  UDP    0.0.0.0:3702           *:*
+  UDP    0.0.0.0:3702           *:*
+  UDP    0.0.0.0:3702           *:*
+  UDP    0.0.0.0:4500           *:*
+  UDP    0.0.0.0:5050           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    0.0.0.0:6646           *:*
+  UDP    0.0.0.0:50523          *:*
+  UDP    0.0.0.0:64471          *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:62207        *:*
+  UDP    127.0.0.1:63838        *:*
+  UDP    169.254.1.17:137       *:*
+  UDP    169.254.1.17:138       *:*
+  UDP    169.254.1.17:1900      *:*
+  UDP    169.254.1.17:63836     *:*
+  UDP    192.168.29.32:137      *:*
+  UDP    192.168.29.32:138      *:*
+  UDP    192.168.29.32:1900     *:*
+  UDP    192.168.29.32:63837    *:*
+  UDP    [::]:500               *:*
+  UDP    [::]:3702              *:*
+  UDP    [::]:3702              *:*
+  UDP    [::]:3702              *:*
+  UDP    [::]:3702              *:*
+  UDP    [::]:4500              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::]:50524             *:*
+  UDP    [::]:64472             *:*
+  UDP    [::1]:1900             *:*
+  UDP    [::1]:63835            *:*
+  UDP    [fe80::1088:e830:1d2d:111%16]:1900  *:*
+  UDP    [fe80::1088:e830:1d2d:111%16]:63833  *:*
+  UDP    [fe80::5cdb:e424:b7dd:73de%5]:1900  *:*
+  UDP    [fe80::5cdb:e424:b7dd:73de%5]:63834  *:*
+
+C:\Users\hp>netstat -g
+
+Displays protocol statistics and current TCP/IP network connections.
+
+NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-t] [-x] [-y] [interval]
+
+  -a            Displays all connections and listening ports.
+  -b            Displays the executable involved in creating each connection or
+                listening port. In some cases well-known executables host
+                multiple independent components, and in these cases the
+                sequence of components involved in creating the connection
+                or listening port is displayed. In this case the executable
+                name is in [] at the bottom, on top is the component it called,
+                and so forth until TCP/IP was reached. Note that this option
+                can be time-consuming and will fail unless you have sufficient
+                permissions.
+  -e            Displays Ethernet statistics. This may be combined with the -s
+                option.
+  -f            Displays Fully Qualified Domain Names (FQDN) for foreign
+                addresses.
+  -n            Displays addresses and port numbers in numerical form.
+  -o            Displays the owning process ID associated with each connection.
+  -p proto      Shows connections for the protocol specified by proto; proto
+                may be any of: TCP, UDP, TCPv6, or UDPv6.  If used with the -s
+                option to display per-protocol statistics, proto may be any of:
+                IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, or UDPv6.
+  -q            Displays all connections, listening ports, and bound
+                nonlistening TCP ports. Bound nonlistening ports may or may not
+                be associated with an active connection.
+  -r            Displays the routing table.
+  -s            Displays per-protocol statistics.  By default, statistics are
+                shown for IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, and UDPv6;
+                the -p option may be used to specify a subset of the default.
+  -t            Displays the current connection offload state.
+  -x            Displays NetworkDirect connections, listeners, and shared
+                endpoints.
+  -y            Displays the TCP connection template for all connections.
+                Cannot be combined with the other options.
+  interval      Redisplays selected statistics, pausing interval seconds
+                between each display.  Press CTRL+C to stop redisplaying
+                statistics.  If omitted, netstat will print the current
+                configuration information once.
+
+
+C:\Users\hp>netstat -b
+The requested operation requires elevation.
+
+C:\Users\hp>ping localhost
+
+Pinging DESKTOP-GJ84JDR [::1] with 32 bytes of data:
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+
+Ping statistics for ::1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Users\hp>
+
+
+
+
+ 
+ 
+ 
+ 
+ 

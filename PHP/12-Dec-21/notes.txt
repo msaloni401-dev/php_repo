@@ -1,0 +1,113 @@
+
+4. laragon web/(server)-Interface:- 
+Server:on
+PHP:Apache:on
+Mysql:on
+
+make the request using browser, for http://localhost:<apache-port>
+http://localhost:786
+
+or
+quick open using cmd
+window+R
+type cmd hit enter
+start chrome.exe http://localhost:786
+
+How many ways you can execute the php code 
+1.php cli mode
+     1.laragon terminal
+	 2.git-bash
+	 3.cmd/powershell
+	 4.php interactive : mode php REPL : php>
+	 How to launch php repl mode
+	 cmd:>
+	 type php -a
+	 PhP>
+	 without using opening and closing of php tags 
+	 but(;) is mandatory.
+ex:--	 
+       1.) C:\Users\hp>php -a
+           Interactive shell
+
+            php > $a="Saloni";
+            php > echo $a;
+            Saloni 
+        2.)php> echo strtoupper('saloni');
+           SALONI  
+		   
+		 Note::
+         php -a and php -s here, -a, and -s are called as command lone argument
+       On supplying these arguments,the program start executing
+	   in the same, given enviroment.
+	   How to see list of all arguments
+	   cmd:>php -help(php -h)
+	   php -a :interactive mode
+	   php -r :execute the code as readline
+	      ex:- C:\Users\hp>php -r "echo 'hy my name is Saloni Maurya';"
+               hy my name is Saloni Maurya
+	   php -v :display the current version
+	   php -s :Run the inbuilt cli server of php<@v php 5.6.2>
+	   php -m :loads all the important modules intialised by php.ini
+	   php -h :run the helps
+	   php -version :display the current version of php
+	   .......
+	   ....
+	   
+	   wap in php to run a php code as readline
+	   ****************************************
+	   we will use php -r command to run the code in readline
+	   C:\Users\hp>php -r "echo 'hy my name is Saloni Maurya';"
+       hy my name is Saloni Maurya
+2.PHP web mode	
+    1. php cli server 
+	           php -S <url>:<any-port-no>
+	2.using laragon web Interface.
+	  
+We have only two types of program in a programming language
+1. with input :Adition of two number with input.
+2. without input: Hello world
+
+How to create our Frist Input program in web -interface
+Input Fields :html Forms
+1. Create a Html from
+2. Add any no field You Require.
+3. Add a submit button
+4. Add from tag, with action ,and method ="Get" or method="POST"
+5. Add the server-side page url with is going to handle request at server side 
+   6. Fill the from and hit on submit button
+   7. you will get, a Not Found 404 Error. bacuase Resource dose not exist.
+   8. create a server-side page, which can handle, client request and process data and give
+      the response.
+   9. Use the supperGolbal variable, of PHP to accept the request using $_Request to handlethe from 
+      fields.
+   10.Since, $_Request is a, Array,It has a key as name field attribute, in html from and use echo 
+   statement to display the output and after words comment it.
+   11. Note that,add id and name attribute on html froms to handle echo from
+   concept : this concept is valid for all language jsp, python, asp.net
+   and php also
+   id---> for javascript or client side.
+   name--> for server side
+ Task:
+1. Wap in php to accept,name and display on Another page
+2. wap in php to task three numbers as Input and Display Result of Sum
+3. wap in php to make calculet to find,+,-,*,/
+4. wap in php to take info of user , name,eamil, password, maobie and display his information in next page.
+5. wap in php to accept lenght, breadth from user and calculate area of rectangle,parimeter
+6 wap in php to make p,r,t find SI.
+7.wap in php to take radius as input and find, area,circumference of a crilce.
+8. wap in php to find remainder of a given two numbers when a/b using %Opertor
+9. ***wap in php to find remainder of a given two number when a/b without using % operator
+10.*** wap in php  to take a and b as input and -,/,*operators to find sum but you are not allowed to use + opertor
+and condition
+1. a>b always
+2. a>0 always
+3. b>0 always
+11. ***Wap in php Take input of 5 subjects of student, Enter his Marks and show the marks of each subjects
+with overall%   
+   
+   
+	
+   
+	 
+
+
