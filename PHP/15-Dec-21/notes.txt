@@ -1,0 +1,175 @@
+2.driver protocols [protocol]://
+php supports list of driver protocols
+these are also called as wrapper, or schem in the php
+1.file://-Accessing local filesystem
+2.http://-Accessing http(S) urls
+3.ftp ://-Accessing ftp(s)urls
+4.php ://-Accessing various I/O stream:it can handle any type of  input or output protocol from any interface
+it can be terminal it can be ui based, or any thrid party (api)appilcation programming interface.
+5.Zlib://-Compression streams
+6.data://-Date (RFC 2397)
+7.glob://-Find pathnames natching pattern
+8.phar://-PHP Archive
+9.ssh2://-secure shell 2
+10.Rar://-RAR
+11.org://-audio streams
+12.Expert://-process interaction streams
+
+1.in scanner.php we wrote a code
+$input = fgets(STDIN,1024);
+STDIN: stdinput
+STDERR :strerror
+STDOUT: stdoutput
+ the meaning of STDIN= php://input
+ the meaning of STDOUT= php://output
+ 
+  php://input
+  php://input is a read-only stream that allows you to read raw data from the request body, php://input
+  is not available with enctype ="multipart/from-data".
+  
+  Php://output 
+  php://output is a write -only stream that allows you to writeto the output 
+  buffer mechanism in the same way as print and echo
+  
+ note:- these are used for raw input only (Json input) fro  client request.
+ 
+  what is used of fgets
+  *********************
+   fgets () allows you raed the data from any input resource.
+   it internally uses, file pointer.
+   by default it can read 1024 characters at a time from the input buffer.
+   1.fgets :terminal
+    fgets(STDIN,1024);
+	
+	2. fgets: file read-only
+	fgets can read any no of characters from any file, or resource before EOL,
+    EOL:End of line integer()
+	EOF:End of file integerValue(-1)
+         file modes
+          1.r: read modes
+		  2.w: write modes
+		  3.a: append modes
+		  
+Case 1:-
+fgets accepts two arguments: 
+1. resource handler this can be a 
+   a wrapper, scheme , file pointer,
+2. buffer_size: no of memory blocks reserved for, input characters stream.
+   it works like a linklist 
+      where 0:Address
+	        1:base date : header date :header node
+			2: other nodes
+	if buffer_size not supplied :default 1024
+    if buffer_size==o:false
+    if buffer_size==1: false
+    if buffer_size >1:characters bit reserved in memory block headed(pointed By)
+    by base node.
+
+3.Concept of user-defined function.
+   write a program in php to show user defined functions 
+1. function <any-function>($args1,$args2,$args3.....,){
+                                                       // code Statement
+                                                       }   
+Exa-:
+function wish()
+{
+echo 'Hy! Good Morning...';
+}
+
+wap a program in php to add number using user-defined function
+
+$no1=readline('Enter the no 1:')
+$no2=readline('Enter the no 2:')
+ echo add($no1,$no2);
+  function add($no1,$no2){
+  return $a+$b;
+  }
+4. returning  from a function:
+ using return keyword inside function the function should return a value we have alerdy
+ seen in add() function.
+ 
+ 5. using defualt argument in a function: if we want to make argument option (can pass or cannot pass )
+ in that case defined a default value to the argument in function declaration and definition\
+ 
+ function add($a,$b=0){
+ 
+ }
+
+$a : mendatory Argument.
+$b : optional Argument.
+
+6.file-opinter and file handling:
+7. input output buffer or I/O Stream:
+8.
+		  
+		  
+
+
+	
+	C:\laragon\www\app-2021\cli>start notepad saloni.txt
+
+        C:\laragon\www\app-2021\cli>start notepad p4.php
+
+       C:\laragon\www\app-2021\cli>php p4.php
+    my name is saloni maurya
+	
+	CMD
+	
+	Microsoft Windows [Version 10.0.19043.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\laragon\www\app-2021\cli>start notepad saloni.txt
+
+C:\laragon\www\app-2021\cli>start notepad p4.php
+
+C:\laragon\www\app-2021\cli>php p4.php
+my name is saloni maurya
+C:\laragon\www\app-2021\cli>start notepad p5.php
+
+C:\laragon\www\app-2021\cli>php p5.php
+
+Parse error: syntax error, unexpected '}', expecting ';' or ',' in C:\laragon\www\app-2021\cli\p5.php on line 7
+
+C:\laragon\www\app-2021\cli>php p5.php
+Saloni
+C:\laragon\www\app-2021\cli>php p5.php
+Hy! Saloni Maurya
+C:\laragon\www\app-2021\cli>php p5.php
+Hy! Saloni Maurya
+C:\laragon\www\app-2021\cli>php p5.php
+Hy! Saloni Maurya
+C:\laragon\www\app-2021\cli>php p5.php
+Hy! Saloni Maurya
+C:\laragon\www\app-2021\cli>start notepad p6.php
+
+C:\laragon\www\app-2021\cli>php p6.php
+
+C:\laragon\www\app-2021\cli>php p6.php
+
+C:\laragon\www\app-2021\cli>php p6.php
+
+Parse error: syntax error, unexpected '$no2' (T_VARIABLE) in C:\laragon\www\app-2021\cli\p6.php on line 3
+
+C:\laragon\www\app-2021\cli>php p6.php
+Enter the no 1:32
+Enter the no 2:54
+86
+Fatal error: Uncaught ArgumentCountError: Too few arguments to function add(), 0 passed in C:\laragon\www\app-2021\cli\p6.php on line 8 and exactly 2 expected in C:\laragon\www\app-2021\cli\p6.php:5
+Stack trace:
+#0 C:\laragon\www\app-2021\cli\p6.php(8): add()
+#1 {main}
+  thrown in C:\laragon\www\app-2021\cli\p6.php on line 5
+
+C:\laragon\www\app-2021\cli>php p6.php
+Enter the no 1:76
+Enter the no 2:54
+130
+
+
+C:\laragon\www\app-2021\cli>php p7.php
+Enter the no 1:34
+Enter the no 2:44
+The result with 0 Argument=0
+The result with 1 Argument 34=34
+The result with 1 Argument 44=44
+The result with 2 Argument=78
