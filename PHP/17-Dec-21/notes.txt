@@ -1,0 +1,11 @@
+a variable can hold any type of value depending on the data-type.
+for example:-
+1. a variable can hold numarical value, like int , float.
+2. a variable can hold a boolean value like true,false.
+3. a variable can hold a collection of values like array.
+4. a variable can hold like empty or nullable value.
+5. a variable can hold a Resoure like mysqli Resource object.
+6. a variable can hold a string value B/W '' "" and  heredoc, newdoc strings.
+7. a variable can hold a objects or instances.
+8. a variable can hold, context of super golbals(also called super global variables).
+

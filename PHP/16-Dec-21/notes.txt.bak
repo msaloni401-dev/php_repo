@@ -1,8 +1,7 @@
 today Notes -:-
  
 $a:mandatory argument: the argument which are compulsory
-$b : optional Argument:the optional are arguments have a default a value , ehich makes the optional , such that if
-we pass the value
+$b : optional Argument:the optional are arguments have a default a value , ehich makes the optional , such that if we pass the value
 $argument takes the assiggenced value , if no , it is going to use the  default value . this makes these arguments 
 (paraments,inputs) as optional argument
 
@@ -38,7 +37,7 @@ Variable($) and reference to variable($$)/variable to varaible reference in PHP:
   user defined naming convence is called as identifier.
   Q1. class *Test{
   private *$a;
-  private *$b;
+  private *$be
   public function *dance(*$msg){
   printf("The dance function");
   return $msg;

@@ -1,0 +1,19 @@
+<?php
+//wap in php to boolean data types stored in variables
+$x=true;//non case sensitive
+echo $x;
+echo PHP_EOL;
+echo getType($z);
+echo PHP_EOL;
+var_dump($z);
+
+note::-
+Waht is different B/W json_encode and json_decode?
+json_encode:php native data_type to json native representation the data representation is completly row 
+json_decode:json_decode representation convert to php native data_type raw  raw data php data-type type.     
+
+
+
+
+
+

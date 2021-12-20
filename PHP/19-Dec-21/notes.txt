@@ -1,0 +1,111 @@
+Note:-
+we can use print_r() or var_dump to print the output of the array.
+print_r():- prints the array or resource in, readable from it only show the data inside it.
+
+it will dump the output entire data about the variable ,
+hence var_dump shows the data, called(meta data) 
+var_export() : Alias of var_dump(), same as var_dump but it show the representation of the data in more readable.
+not meta data.
+
+Empty:a empty is a, value(with no value)  having  type as string and length as zero, and ordinalty(Ascii)
+as  0
+
+what is the mejor different b/w null and undefined variable?
+1. $x='a'; isset($x)--->return true.
+2 echo $x; printf--->aboutif  you try these things with a undefined variable.
+$y;
+echo $y; // undifined variable $y.
+since you are printing this with echo you will see nothing 
+var_dump($y); // same  errror, undefined variable $y but, dta type Nu;;.
+
+isset($y); false---> valid---> $y does not exist at all--> $y is given memory.
+$z=null; // $z-->memory is allocated 
+echo $z;  // no errror--> no output will be generated.
+var_dump($z); //NULL without any error
+isset($z);//false here $z is allocated into memory without any value.
+
+unset($y);//deletes from the memory
+echo $y;
+unset($z); // deleted from the memory
+echo $z; //undefined variable $z;
+
+var_dump($y); //undefined variable-->null
+var_dump($z);// no error-->null
+unset($y);
+unset($y);
+var_dump($z);// undefined variable-->null
+var_dump($y);// undefined variable-->null
+
+Super global varriable:- these are special with global conntext, and scope and
+these are predifined variable by php and it has been reserved, for some special purpose
+
+Super Global variable are of two types:-
+1.mangled super golbal variable.
+2. non-mangled super Global variable.
+
+super global variable in general 
+$GLOBALS :non-mangled
+$_SERVER :mangled
+$_GET    :mangled
+$_POST   :mangled
+$_FILES  :mangled
+$_COOKIE :mangled
+$_SESSION:mangled
+$_REQUEST:mangled
+$_ENV    :mangled
+
+other super global variable:-
+$http_response_header :non-mangled
+$argc                 :non-mangled
+$argv                 :non-mangled
+$php_errormsg         :Deprecated
+
+Note mangled:which with $ and( _ )as prefixed
+tjis naming convention is called name mangaling same thing is valid in 
+python:__name__,__main__,__init(self)
+In javascript:__proto__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
