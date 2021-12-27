@@ -1,0 +1,177 @@
+23/dec/2021
+properties of constants:-
+************************
+1. by default the declaration of the constants are atomic,(declaration once) and case-Sensitive.
+2. The scope of, constants are global.
+3. The constants cannot be re-declared.
+4. if we want to make in -case-Sensitive constantswe need to set 3rd argument in define as :true.
+5. the in case-Sensitive, constants were depericated in version 7.4.16 but this feature is alerdy 
+   supported. and in 8.x these feature again supported.
+   
+   Note: during this concept , we have two Error raised,
+   1.E_DEPRECATED 2.E_USER_DEPRECATED
+     E_DEPRECATED: reserved pre-defiend standards of php depericated error.
+     E_USER_DEPRECATED:	reserved for user-defined depericated error.
+	 
+WORKING  with string leterals in PHP:-
+*************************************
+a variable in php can hold any type of string value, bu,l,t in case of output string then,there is vast
+ defference
+B/W '' and "" its combinations.
+these combinations are  invalid
+1.''inside '' : invalid
+2.""inside "" : invalid
+
+these combination are possible:-
+'' inside "" valid
+"" inside '' valid
+'' inside `` valid
+"" inside `` valid
+
+Note ::`` tick can inside '' or "" Qoutes only.
+
+Types of output String:-
+1.Raw String(single Qoutes) : any string wrapped inside '' will be Raw string.   in this case,
+ escape character sequence like, \n,\t,\r,\v-vertical feed,\f-feed,\a-audible bell(tone),\b-backshalesh
+ and variables are not processed.
+  
+2.Processed String(double Qoutes) : in case of processed, string every character within "" will be
+ processed. any string wrapped inside "" Qoutes are called as processed string.
+ and they will process, each and every specal character like escape sequences \n,\t,\f,\v,\r,\a 
+ and variables will also be processed.
+ 
+3.HereDoc String :              
+4.newDoc String :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+6. 
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

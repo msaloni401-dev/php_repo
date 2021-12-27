@@ -13,28 +13,8 @@ function alert(a){return false}
 alert()
 what is the difference b/w normal variableand super global variable:-
 1. svg, are predefined but normal variable are used defined
-2. svg, super global scope and normal variable have local scope.
-3. Normal variable do not have concept  called name manglaing but super global variable have.
-(4.) SAPI(service application programming interface)
-$GLOBALS :
-$_SERVER :
-$_GET    :
-$_POST   :
-$_FILES  :
-$_COOKIE :
-$_SESSION:
-$_REQUEST:
-$_ENV    :
-
-other super global variable:-
-$http_response_header :
-$argc                 :
-$argv                 :
-$php_errormsg         :Deprecated
-
-
-backbiching :-
-
+2. svg,super global scope and normal variable have local scope.
+3. 
 
 
 

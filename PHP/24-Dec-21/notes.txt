@@ -1,0 +1,27 @@
+3. HereDoc String:
+echo <<<BLOCK
+This a here doc string , $a\new
+"This is again new line of string "$a" "
+'This string is inside $a single Qoutes\t tabbed'=$a
+
+BLOCK;
+
+$html=<<<BLOCK
+This a here doc string , $a\new
+"This is again new line of string "$a" "
+'This string is inside $a single Qoutes\t tabbed'=$a
+
+BLOCK;
+echo $html;
+
+$html=<<<SoNa
+This a here doc string , $a\new
+"This is again new line of string "$a" "
+'This string is inside $a single Qoutes\t tabbed'=$a
+
+BLOCK;
+echo $html;
+
+
+
+4.newDoc string

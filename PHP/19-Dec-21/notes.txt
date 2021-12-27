@@ -45,7 +45,8 @@ Super Global variable are of two types:-
 
 super global variable in general 
 $GLOBALS :non-mangled
-$_SERVER :mangled
+$_SERVER :mangled.
+
 $_GET    :mangled
 $_POST   :mangled
 $_FILES  :mangled

@@ -1,0 +1,129 @@
+Types of data types:
+1.scalar Data Type(Fundamental DataTypes)
+ 1.int 
+ 2.float(floating aka double) double
+ 3.string
+ 4.boolean
+ 
+2.complex(compound) data type:
+  1.array
+  2.object
+  3.callable**(when oops)  
+  4.Iterable**(when oops)  
+  
+3.special data type
+  1.Resource
+  2.null
+
+All these are collection called, 10 primitive DataTypes  
+ 
+Types of PHP Tags:-
+ 1.Univarsal Tag or Simple PHP Tags:<?PHP ?> Enable 7.X
+ 2.ShortOpen Tag:<?  ?>
+ 3.Asp Style Tag:<% %>Disable 5.X  Deprecated in version
+ 4.Script Style Tags :<Script langauge="PHP"></script>Deprecated in version
+ 
+ 
+ php .ini holds are the settings of php intepreter.
+ 
+ Types of PHP Script :-
+ 1.Core PHP file:
+   The entire code is of php, it should not contain any external langauge code.
+   Even you donot,close the closing of php tags, it will work fine
+   opening of php mendatory  but closing of php tag is not mendatory.
+   
+   These core php files includes, libraries, functions, packages or classeees
+    which are written in plain php code only.
+	
+    2.inclusive php file: it is also same as, hybrid php file , but when this file include in any,core
+	 file it becomes inclusive php file.
+ 
+ 3.Hybrid PHP file.
+  The Hybrid Php file is a file which contains mixed code, of ,html js , and  other language including 
+  php file, in this case php closing is mendatory.
+  
+  It is recommended to, make an extension of 
+  .ini.php to identify that  these files are inclusive php files.
+  
+wap a program to, restrict any file from Directly as main file.
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
